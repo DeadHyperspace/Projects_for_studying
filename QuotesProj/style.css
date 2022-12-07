@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Oswald:wght@500&display=swap');
+body{
+    background: darksalmon;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    border: 1px solid black;
+    width: 95%;
+    height: 80vh;
+    display: flex;
+}
+.quotes{
+    background-color: burlywood;
+    border: 10px solid wheat;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    /* Содержимое становится друг на друга колонной */
+    flex-direction: column;
+    /* Отцентрировали по центру */
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+.quotes h1{
+    font-size: 1.5rem;
+}
+.quotes h2{
+    font-size: 1.3rem;
+}
+.btnDiv{
+    text-align: center;
+}
