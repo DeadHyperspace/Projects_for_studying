@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+
+body {
+    font-family: 'Unbounded', cursive;
+    color: white;
+    background: rgb(73, 70, 126);
+    background: linear-gradient(90deg, rgba(73, 70, 126, 1) 0%, rgba(242, 145, 112, 0.8987068965517242) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.clock {
+    background: rgb(73, 70, 126);
+    background: linear-gradient(153deg, rgba(73, 70, 126, 1) 0%, rgba(242, 145, 112, 0.8987068965517242) 100%, rgba(0, 212, 255, 1) 100%);
+    width: 20%;
+    height: 80%;
+    margin: 10% 50% 10% 40%;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.time {
+    padding-top: 7%;
+}
+
+.time span, p {
+    font-size: 25px;
+    color: white;
+}
+
+@media (min-width: 100px) {
+    .time span, p {
+        font-size: 5px;
+    }
+    p{
+        font-size: 4px;
+    }
+}
+@media (min-width: 500px) {
+    .time span, p {
+        font-size: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+}
+@media (min-width: 992px) {
+    .time span, p {
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+@media (min-width: 1000px) {
+    .time span, p {
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
