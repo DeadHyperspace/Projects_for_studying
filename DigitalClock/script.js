@@ -14,6 +14,7 @@ function curTime(){
     let month = nameMonth[numMonth];
     let ampm = hours >= 12 ? 'PM' : 'AM';
     hours = hours % 12;
+    hours = hours === 24 || hours === 0 ? 12:hours;
     hours = 10 > hours ? '0' + hours: hours;
     minutes = 10 > minutes ? '0' + minutes: minutes;
     seconds = 10 > seconds ? '0' + seconds: seconds;
