@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+
+body {
+    font-family: 'Unbounded', cursive;
+    color: white;
+    background: rgb(73, 70, 126);
+    background: linear-gradient(90deg, rgba(73, 70, 126, 1) 0%, rgba(242, 145, 112, 0.8987068965517242) 100%, rgba(0, 212, 255, 1) 100%);
+}
+.container{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc {
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    margin:auto;
+    width: 30%;
+    height: 30%;
+}
+.calc .btn{
+    font-size: 25px;
+    width: 20%;
+    height: 10%;
+    border: none;
+    margin: 1% 0% 0% 3%;
+    outline: none;
+}
+.calc input{
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 25px;
+    margin: 5% 0% 0% 3%;
+    width: 92%;
+    height: 10%;
+    border: none;
+    outline: none;
+}
+.btnMath{
+    background-color: dimgrey;
+    font-size: 25px;
+    width: 20%;
+    height: 10%;
+    border: none;
+    margin: 1% 0% 0% 3%;
+    outline: none;
+}
+.btnEq{
+    margin: 1% 10% 5% 3%;
+    background-color: dimgrey;
+    width: 92.5%;
+    outline: none;
+    border: none;
+    font-size: 25px;
+
+}
+.btnEq:hover, .btnMath:hover{
+    background-color: rgba(128,128,128,1);
+}
+@media (min-width: 100px) {
+
+}
+@media (min-width: 500px) {
+
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1000px) {
+
+}

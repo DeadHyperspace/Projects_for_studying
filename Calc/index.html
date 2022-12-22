@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calc</title>
+</head>
+<body>
+<div class="container">
+    <div class="calc">
+        <input id="numb_value" placeholder="0">
+        <br>
+        <button class="btn" onclick="press(7)">7</button>
+        <button class="btn" onclick="press(8)">8</button>
+        <button class="btn" onclick="press(9)">9</button>
+        <button class="btnMath" onclick="press('-')">-</button>
+        <br>
+        <button class="btn" onclick="press(4)">4</button>
+        <button class="btn" onclick="press(5)">5</button>
+        <button class="btn" onclick="press(6)">6</button>
+        <button class="btnMath" onclick="press('/')">/</button>
+        <br>
+        <button class="btn" onclick="press(1)">1</button>
+        <button class="btn" onclick="press(2)">2</button>
+        <button class="btn" onclick="press(3)">3</button>
+        <button class="btnMath" onclick="press('*')">*</button>
+        <br>
+        <button class="btn" onclick="press(0)">0</button>
+        <button class="btnMath" onclick="clears()">C</button>
+        <button class="btnMath" onclick="press('.')">.</button>
+        <button class="btnMath" onclick="press('+')">+</button>
+        <br>
+        <button class="btnEq" onclick="equals()">=</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
