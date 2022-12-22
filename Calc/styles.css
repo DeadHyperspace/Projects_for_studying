@@ -19,7 +19,7 @@ body {
     width: 30%;
     height: 30%;
 }
-.calc .btn{
+.btn{
     font-size: 25px;
     width: 20%;
     height: 10%;
@@ -58,15 +58,58 @@ body {
 .btnEq:hover, .btnMath:hover{
     background-color: rgba(128,128,128,1);
 }
-@media (min-width: 100px) {
-
+@media (max-width: 350px) {
+    .calc {
+        width: 60%;
+        height: 15%;
+    }
+    input{
+        font-size: 5px;
+    }
+    .btnEq{
+        font-size: 5px;
+    }
+    .btn, .btnMath{
+        font-size: 5px;
+        width: 15%;
+        height: 8%;
+    }
 }
-@media (min-width: 500px) {
+@media (max-width: 481px) {
+    .calc{
+        width: 50%;
+        height: 30%;
 
+    }
+    input{
+        font-size: 10px;
+    }
+    .btn, .btnMath,.btnEq{
+        font-size: 10px;
+    }
 }
-@media (min-width: 992px) {
+@media (max-width: 505px) {
+    .calc{
+        width: 50%;
+        height: 30%;
 
+    }
+    input{
+        font-size: 15px;
+    }
+    .btn, .btnMath,.btnEq{
+        font-size: 15px;
+    }
 }
 @media (min-width: 1000px) {
-
+    .calc{
+        width: 50%;
+        height: 50%;
+    }
+    input{
+        font-size: 35px;
+    }
+    .btn, .btnMath,.btnEq{
+        font-size: 35px;
+    }
 }
