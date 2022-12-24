@@ -1,0 +1,96 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: rgb(210, 189, 151);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.task {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid black;
+    margin: 1% 0%;
+}
+
+.task h2 {
+    font-size: 2rem;
+}
+
+.userInp {
+    text-align: center;
+    width: 100%;
+    margin: 2%;
+}
+
+.userInp input {
+    width: 50%;
+    outline: none;
+    padding: 2%;
+    margin-bottom: 3%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+
+.userInp input:focus {
+    box-shadow: 0 0 5px #E22865;
+    border: 1px solid #E22865;
+}
+
+.userInp button {
+    cursor: pointer;
+    padding: 2%;
+    width: fit-content;
+    transition: 1s;
+    outline: none;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-top-right-radius: 5px;
+}
+
+.userInp button:hover{
+    background-color: transparent;
+    color: white;
+}
+.tasksToDo{
+    width: 90%;
+    padding: 0% 5%;
+    border: 1px solid black;
+}
+.toDo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    padding: 2%;
+    color: #454545;
+    margin-top: 2%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+
+.toDo:hover{
+    box-shadow: 0 0 20px #E22865;
+    border: 1px solid #E22865;
+}
+
+.toDo i{
+    cursor: pointer;
+    margin: 0 5px;
+}
