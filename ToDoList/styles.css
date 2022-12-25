@@ -9,6 +9,7 @@ body {
 h2{
     color:white;
 }
+
 .container {
     width: 90%;
     margin: auto;
@@ -70,10 +71,7 @@ h2{
     width: 90%;
     padding: 0% 5%;
 }
-.toDo p{
-    word-wrap: break-word;
-    white-space: normal;
-}
+
 .toDo{
     background-color: white;
     display: flex;
@@ -102,18 +100,28 @@ h2{
     cursor: pointer;
     margin: 0 5px;
 }
-@media(max-width:1280px){
-
+@media(min-width:300px){
+    p{
+        font-size: 5px;
+    }
 }
-
-@media(max-width:768px){
-
+@media(min-width:500px){
+    p{
+        font-size: 30%;
+    }
 }
-
-@media(max-width:480px){
-
+@media(min-width:800px){
+    p{
+        font-size: 64%;
+    }
 }
-
-@media(max-width:320px){
-
+@media(min-width:1000px){
+    p{
+        font-size: 55%;
+    }
+}
+@media(min-width:1200px){
+    p{
+        font-size: 70%;
+    }
 }

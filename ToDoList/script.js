@@ -3,10 +3,19 @@ const input = document.getElementsByClassName("user-input")[0];
 input.addEventListener("keydown", function (event){
     if(event.key === "Enter") {
         addItems();
+        size_check();
     }
 });
 function submit(){
+    size_check();
     addItems();
+}
+function size_check() {
+    const textBoxStringSize = document.getElementsByTagName("html")[0].offsetWidth / 10;
+
+    for(let i=1;(input.value.length > textBoxStringSize * i);i++){
+        input.value=input.value.slice(0,textBoxStringSize*i-1) + " \n" + input.value.slice(textBoxStringSize*i-1);
+    }
 }
 function addItems(){
     const toDO = document.createElement("div");
