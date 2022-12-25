@@ -1,9 +1,14 @@
-body {
+html{
     width: 100%;
     height: 100%;
-    background: rgb(210, 189, 151);
 }
-
+body {
+    background: rgb(215,166,87);
+    background: linear-gradient(0deg, rgba(215,166,87,1) 35%, rgba(69,191,182,1) 74%, rgba(215,166,87,1) 100%);
+}
+h2{
+    color:white;
+}
 .container {
     width: 90%;
     margin: auto;
@@ -14,8 +19,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    border: 1px solid black;
-    margin: 1% 0%;
+    margin: 1% 0;
 }
 
 .task h2 {
@@ -65,9 +69,13 @@ body {
 .tasksToDo{
     width: 90%;
     padding: 0% 5%;
-    border: 1px solid black;
+}
+.toDo p{
+    word-wrap: break-word;
+    white-space: normal;
 }
 .toDo{
+    background-color: white;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -93,4 +101,19 @@ body {
 .toDo i{
     cursor: pointer;
     margin: 0 5px;
+}
+@media(max-width:1280px){
+
+}
+
+@media(max-width:768px){
+
+}
+
+@media(max-width:480px){
+
+}
+
+@media(max-width:320px){
+
 }
